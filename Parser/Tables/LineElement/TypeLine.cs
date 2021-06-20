@@ -117,7 +117,7 @@ namespace Parser.Tables.LineElement
             };
             if (GUID.Contains(typeName))
             {
-                return "GUID";
+                return "Guid";
             }
 
             return "string";
